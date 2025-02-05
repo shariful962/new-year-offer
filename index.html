@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- custom css link  -->
     <link rel="stylesheet" href="./css/style.css">
@@ -16,21 +19,24 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
     <style type="text/tailwindcss">
-      @theme {
+        @theme {
         --color-clifford: #da373d;
         --font-primary: "Inter", serif;
         --font-secondary: "Merriweather", serif;
         --color-main: #FF0000;
-        --text-textmain: #FF0000;
+        --text-textcolor: #070211;
       }
     </style>
 </head>
+
 <body class="font-primary">
     <header class="container md:container mx-auto">
         <div class="banner h-[500px] flex flex-col justify-center items-center">
             <div class="banner-text">
                 <h2 class="text-white text-center text-[2rem] mb-4 font-secondary font-normal">Happy New Year</h2>
-                <h1 class="text-white text-center font-secondary font-extrabold lg:text-7xl text-5xl leading-none lg:leading-[95px]">New Year Party <br> Celebration</h1>
+                <h1
+                    class="text-white text-center font-secondary font-extrabold lg:text-7xl text-5xl leading-none lg:leading-[95px]">
+                    New Year Party <br> Celebration</h1>
             </div>
         </div>
     </header>
@@ -53,13 +59,15 @@
                 </div>
             </div>
         </section>
-        <section class="welcome container md:container mx-auto h-[auto] lg:h-[550px] mt-32 flex flex-col lg:flex-row justify-around items-center py-4">
+        <section
+            class="welcome container md:container mx-auto h-[auto] lg:h-[550px] mt-32 flex flex-col lg:flex-row justify-around items-center py-4">
             <div class="text ml-3 lg:ml-0">
                 <h1 class="text-white text-[4rem] leading-tight tracking-[11px font-secondary font-extrabold mb-6]">
                     Welcome to <br> midnight party
                 </h1>
                 <p class="text-lg text-white font-normal max-w-[690px] mt-6">
-                    Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. 
+                    Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed
+                    sodales risus ut pellentesque vel euismod.
                 </p>
                 <button class="bg-transparent text-white text-xl font-bold p-4 cursor-pointer">
                     Join Now
@@ -69,7 +77,58 @@
                 <img src="./images/Group 70.png" alt="newYearLolo">
             </div>
         </section>
+        <section class="schedule mt-32 h-[480px] container md:container mx-auto">
+                <div class="h-full flex flex-col gap-4 justify-center items-center">
+                    <p class="text-[2rem] text-center font-semibold">
+                        <span class="text-main">Place: </span>New Park Hotel
+                    </p>
+                    <p class="text-[2rem] text-center font-semibold">
+                        <span class="text-main">Date: </span>31 December 2024
+                    </p>
+                    <p class="text-[2rem] text-center font-semibold">
+                        <span class="text-main">Time: </span>Evening 7.30PM To 12.30AM
+                    </p>
+                    <div class="text-center">
+                        <button class="py-4 px-8 bg-main text-white rounded-lg border-none text-xl font-bold">
+                            Join Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer container md:container mx-auto mt-32 ">
+            <div class="offer-content flex flex-col lg:flex-row items-center lg:justify-between gap-5">
+                <div class="left">
+                    <h2 class="font-medium text-main text-2xl mb-4">
+                        NEW BEST OFFER
+                    </h2>
+                    <h1 class="text-5xl font-extrabold text-[3rem] mb-5">
+                        Coming Soon
+                    </h1>
+                    <p class="max-w-[390px] leading-[32px] text-xl">
+                        Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. 
+                    </p>
+                </div>
+                <div class="middle">
+                    <div class="h-[360px] w-[360px] border-[8px] border-main rounded-full flex justify-center  items-center">
+                        <img class="h-80 w-80" src="./images/Ellipse 1.png" alt="">
+                    </div>
+                </div>
+                <div class="right lg:text-left text-center">
+                    <h1 class="text-5xl text-main font-bold mb-4">
+                        2024
+                    </h1>
+                    <p class="max-w-[275px] leading-[32px] text-xl mb-10">
+                        Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.
+                    </p>
+                    <div class="lg:text-left text-center">
+                        <img class="inline-block" src="./images/Group 96.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
+
 </html>

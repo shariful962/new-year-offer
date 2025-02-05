@@ -16,3 +16,8 @@
     background-size: cover;
     border-radius: 16px;
 }
+/* schedule section  */
+.schedule {
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+}
