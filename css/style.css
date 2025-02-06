@@ -21,11 +21,7 @@
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
     border-radius: 16px;
 }
-/* holiday section  */
-
-/* .holiday-box {
-    background-image: url("../images/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-} */
+/* newsletter section  */
+.newsletter-content {
+    background: rgba(255, 0, 0, 0.05);
+}
